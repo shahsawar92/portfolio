@@ -1,4 +1,4 @@
-import react, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from "framer-motion";
 import { animateScroll as scroll, Link } from "react-scroll";
 import '../style.css';
