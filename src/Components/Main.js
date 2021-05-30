@@ -77,7 +77,7 @@ function Main() {
             dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
             className="hand"
             animate={{ rotate: [0, 20, 0, 20, 0, 0, 0, 0, 0, 0] }}
-            transition={{ yoyo: Infinity, duration: 1.6 }}
+            transition={{ repeat: Infinity, duration: 1.6 }}
           >
             <span role="img" aria-label="Hand waving">
               👋
@@ -140,7 +140,7 @@ function Main() {
         <motion.div
         className="svg-container"
         animate={{ translateX: [-20, 0, 0, -20] }}
-        transition={{ yoyo: Infinity, duration: 6 }}
+        transition={{ repeat: Infinity, duration: 6 }}
       >
         <img className="svg" src={img3} alt="" />
       </motion.div>

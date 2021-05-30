@@ -298,41 +298,41 @@
   
   /* Images Proportion (877 * 679)*/
   #coronaTracker {
-    background-image: url("#");
+    background-image: url("https://shahsawar-profile.netlify.app/");
     background-size: cover;
     background-repeat: no-repeat;
   }
   
   #shoeStore {
-    background-image: url("#");
+    background-image: url("https://shahsawar-profile.netlify.app/");
     background-size: cover;
     background-repeat: no-repeat;
   }
   
   #todoList {
-    background-image: url("#");
+    background-image: url("https://shahsawar-profile.netlify.app/");
     background-size: cover;
     background-repeat: no-repeat;
   }
   
   #gatsbyBlog {
-    background-image: url("#");
+    background-image: url("https://shahsawar-profile.netlify.app/");
     background-size: cover;
     background-repeat: no-repeat;
   }
   
   #diariesApp {
-    background-image: url("");
+    background-image: url("https://shahsawar-profile.netlify.app/");
     background-repeat: no-repeat;
   }
   
   #devFolio {
-    background-image: url("#");
+    background-image: url("https://shahsawar-profile.netlify.app/");
     background-size: cover;
     background-repeat: no-repeat;
   }
   #uberEats {
-    background-image: url("#");
+    background-image: url("https://shahsawar-profile.netlify.app/");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -417,7 +417,7 @@
     width: 170px;
     border-color: black;
     border-radius: 50%;
-    background-image: url("");
+    background-image: url("https://shahsawar-profile.netlify.app/");
     background-size: cover;
     height: 170px;
   }

@@ -33,7 +33,7 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="#"
+            href="https://shahsawar-profile.netlify.app/"
           >
             <div className="project-images" id="diariesApp"></div>
           </a>
@@ -45,7 +45,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="#"
+                href="https://shahsawar-profile.netlify.app/"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -53,7 +53,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="#"
+                href="https://shahsawar-profile.netlify.app/"
                 target="_blank"
               >
                 {" "}
@@ -77,7 +77,7 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="#"
+            href="https://shahsawar-profile.netlify.app/"
           >
             <div className="project-images" id="shoeStore"></div>
           </a>
@@ -90,7 +90,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="#"
+                href="https://shahsawar-profile.netlify.app/"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -98,7 +98,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="#"
+                href="https://shahsawar-profile.netlify.app/"
                 target="_blank"
               >
                 {" "}
@@ -121,7 +121,7 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="#"
+            href="https://shahsawar-profile.netlify.app/"
           >
             <div className="project-images" id="todoList"></div>
           </a>
@@ -134,7 +134,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="#"
+                href="https://shahsawar-profile.netlify.app/"
               >
                 <i
                   className="fab fa-github"
@@ -144,7 +144,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href=""
+                href="https://shahsawar-profile.netlify.app/"
                 target="_blank"
               >
                 <i
@@ -166,7 +166,7 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="#"
+            href="https://shahsawar-profile.netlify.app/"
           >
             <div className="project-images" id="gatsbyBlog"></div>
           </a>
@@ -179,7 +179,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="#"
+                href="https://shahsawar-profile.netlify.app/"
               >
                 <i
                   className="fab fa-github"
@@ -189,7 +189,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="#"
+                href="https://shahsawar-profile.netlify.app/"
                 target="_blank"
               >
                 <i
@@ -215,7 +215,7 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="#"
+            href="https://shahsawar-profile.netlify.app/"
           >
             <div className="project-images" id="coronaTracker"></div>
           </a>
@@ -228,7 +228,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="#"
+                href="https://shahsawar-profile.netlify.app/"
               >
                 <i
                   className="fab fa-github"
@@ -238,7 +238,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="#"
+                href="https://shahsawar-profile.netlify.app/"
                 target="_blank"
               >
                 <i

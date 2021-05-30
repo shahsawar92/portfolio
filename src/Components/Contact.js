@@ -52,7 +52,7 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="#"
+              href="https://shahsawar-profile.netlify.app/"
             >
               <i className="fab fa-linkedin" title="linkedin" id="linkedin"></i>
             </a>

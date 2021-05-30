@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "../Css/skills.css";
 import LinearProgress from "../Css/linearProgres";
 
 const Skills = () => {
