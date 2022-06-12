@@ -3,6 +3,7 @@ import "../style.css";
 import img3 from "../images/img3.svg";
 import { motion, AnimatePresence } from "framer-motion";
 import { animateScroll as scroll } from "react-scroll";
+import Divider from "./Divider";
 
 const contentVariants = {
     initial: {
@@ -39,7 +40,7 @@ const contentVariants = {
     exit: {
       opacity: 0,
       y: -200,
-      transition: { duration: 0.2 },
+      transition: { duration: 0.5 },
     },
   };
 
@@ -68,11 +69,7 @@ function Main() {
           initial="initial"
           animate="animate"
         >
-              <h4 className="welcome-content">WELCOME</h4>
-        <br />
-        <h1 className="main-content">
-        Muhammad Shah Sawar🎓
-          <motion.span
+              <h4 className="welcome-content">Hi,<motion.span
             drag={true}
             dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
             className="hand"
@@ -82,7 +79,12 @@ function Main() {
             <span role="img" aria-label="Hand waving">
               👋
             </span>
-          </motion.span>{" "}
+          </motion.span>
+               <span>I am</span> </h4>
+        <br />
+        <h1 className="main-content">
+        Muhammad Shah Sawar🎓
+          
         </h1>
         <div className="skill-animation">
           <AnimatePresence>
@@ -94,7 +96,7 @@ function Main() {
                 animate="animate"
                 initial="initial"
               >
-                Full Stack Developer
+                MERN Stack Developer
               </motion.h2>
             )}
           </AnimatePresence>
@@ -107,7 +109,7 @@ function Main() {
                 animate="animate"
                 initial="initial"
               >
-                web/ android
+              Digital Marketer
               </motion.h2>
             )}
           </AnimatePresence>
@@ -144,7 +146,9 @@ function Main() {
       >
         <img className="svg" src={img3} alt="" />
       </motion.div>
+     
         </section>
+       
     )
 }
 

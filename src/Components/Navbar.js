@@ -22,7 +22,7 @@ export default function Navbar() {
    
      window.addEventListener("scroll", changeNav);
     return (
-    <div className={navbar ? "nav-wrapper active" : "nav-wrapper"}>
+    <div className={navbar ? "nav-wrapper active" : "nav-wrapper "}>
            
         <motion.div 
             id="navbar"
@@ -40,7 +40,7 @@ export default function Navbar() {
               }}
             > 
             <span className="logo" onClick={() => scroll.scrollToTop()}>
-            &lt; Shah Sawar /&gt;
+            &lt; ShahSawr /&gt;
             </span>
             <div className="menu-icon" onClick={handleClick}>
               <i className={navClicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -52,7 +52,7 @@ export default function Navbar() {
             <Link
               className={navbar ? "anchor scrolled" : "anchor"}
               activeClass="active"
-              to="Main"
+              to="home"
               spy={true}
               hashSpy={true}
               smooth={true}
@@ -67,7 +67,7 @@ export default function Navbar() {
             <Link
               className={navbar ? "anchor scrolled" : "anchor"}
               activeClass="active"
-              to="skills"
+              to="services"
               spy={true}
               hashSpy={true}
               smooth={true}
@@ -81,7 +81,7 @@ export default function Navbar() {
             <Link
               className={navbar ? "anchor scrolled" : "anchor"}
               activeClass="active"
-              to="skills"
+              to="portfolio"
               spy={true}
               hashSpy={true}
               smooth={true}
@@ -109,7 +109,7 @@ export default function Navbar() {
             <Link
               className={navbar ? "anchor scrolled" : "anchor"}
               activeClass="active"
-              to="Contact"
+              to="contact"
               spy={true}
               hashSpy={true}
               smooth={true}

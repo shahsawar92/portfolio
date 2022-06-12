@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <h2>
-        Developer :{" "}
+        Designed by :{" "}
         <a
           href="https://github.com/shahsawar92"
           rel="noopener noreferrer"

@@ -2,6 +2,7 @@
 import React from "react";
 import "../style.css";
 import { motion } from "framer-motion";
+import { images } from "../images";
 
 const boxVariants = {
   hover: {
@@ -33,9 +34,11 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://shahsawar-profile.netlify.app/"
+            href="#"
           >
-            <div className="project-images" id="diariesApp"></div>
+            <div className="project-images" id="diariesApp">
+              <img className="portfolioimg" src={images.expensetracker} alt="" />
+            </div>
           </a>
           <div className="project-links">
             <div className="text">
@@ -45,7 +48,7 @@ const Portfolio = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://shahsawar-profile.netlify.app/"
+                href="https://github.com/shahsawar92/ExpenseTrackerApp"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -53,7 +56,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://shahsawar-profile.netlify.app/"
+                href="http://www.expensetrackerbyshahsawar.surge.sh/"
                 target="_blank"
               >
                 {" "}
@@ -77,20 +80,23 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://shahsawar-profile.netlify.app/"
+            href="#"
           >
-            <div className="project-images" id="shoeStore"></div>
+            <div className="project-images" id="shoeStore">
+            <img className="portfolioimg" src={images.covidtracker} alt="covid19tracker application" />
+
+            </div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Nike Shoe Store</h3>
+              <h3>Covid 19 Tracker</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://shahsawar-profile.netlify.app/"
+                href="https://github.com/shahsawar92/covid19_tracker"
               >
                 <i className="fab fa-github" title="github repo" id="github">
                   {" "}
@@ -98,7 +104,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://shahsawar-profile.netlify.app/"
+                href="http://coronatrackerbyshahsawar.surge.sh/"
                 target="_blank"
               >
                 {" "}
@@ -121,20 +127,23 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://shahsawar-profile.netlify.app/"
+            href="#"
           >
-            <div className="project-images" id="todoList"></div>
+            <div className="project-images" id="todoList">
+            <img className="portfolioimg" src={images.scratchcard} alt="scratch cards in react" />
+
+            </div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>React Animation</h3>
+              <h3>React Scratch Card</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://shahsawar-profile.netlify.app/"
+                href="https://github.com/shahsawar92/scratchCard"
               >
                 <i
                   className="fab fa-github"
@@ -144,7 +153,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://shahsawar-profile.netlify.app/"
+                href="https://demo_card.surge.sh"
                 target="_blank"
               >
                 <i
@@ -166,20 +175,23 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://shahsawar-profile.netlify.app/"
+            href="#"
           >
-            <div className="project-images" id="gatsbyBlog"></div>
+            <div className="project-images" id="gatsbyBlog">
+            <img className="portfolioimg" src={images.tutorapp} alt="tutor application in react" />
+
+            </div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Quiz App</h3>
+              <h3>Tuter App For Client</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://shahsawar-profile.netlify.app/"
+                href="https://github.com/shahsawar92/proctorwebsite"
               >
                 <i
                   className="fab fa-github"
@@ -189,7 +201,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://shahsawar-profile.netlify.app/"
+                href="https://proctor.surge.sh/"
                 target="_blank"
               >
                 <i
@@ -215,20 +227,23 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://shahsawar-profile.netlify.app/"
+            href="#"
           >
-            <div className="project-images" id="coronaTracker"></div>
+            <div className="project-images" id="quizapp">
+            <img className="portfolioimg" src={images.quizImg} alt="React quiz application" />
+
+            </div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Covid 19 Tracker</h3>
+              <h3>React Quiz App</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://shahsawar-profile.netlify.app/"
+                href="https://github.com/shahsawar92/react-quiz-app"
               >
                 <i
                   className="fab fa-github"
@@ -238,7 +253,7 @@ const Portfolio = () => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://shahsawar-profile.netlify.app/"
+                href="https://quiz_shahsawar.surge.sh/"
                 target="_blank"
               >
                 <i

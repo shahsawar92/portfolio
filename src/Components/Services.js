@@ -24,9 +24,10 @@ export default function Services() {
         <div className="services">
           <li>
             <img src={imga} alt="" />
-            <p>ReactJs/GatsbyJs Development</p>
+            <p>ReactJs Development</p>
           </li>
         </div>
+        
       </div>
     </section>
        

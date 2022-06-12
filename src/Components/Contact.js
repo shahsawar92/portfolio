@@ -1,10 +1,12 @@
 import React from "react";
-import "../index.css";
-
+import "../style.css";
+import {images} from '../images/';
 const Contact = () => {
   return (
     <section className="contact-container" name="contact" id="contact">
-      <div className="profile-image"></div>
+      <div className="profile-image">
+        <img className="image" src={images.profileImage} alt="profile" />
+      </div>
       <h1 className="heading">Contact</h1>
 
       <div className="cards-container">
